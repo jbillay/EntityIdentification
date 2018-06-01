@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+# PDF for the example
+*.pdf
+
+# Upload directory
+uploads/
+
+# Cloud info
+NaturalLanguageJeremy-8f910eff0d47.json

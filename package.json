@@ -1,0 +1,38 @@
+{
+  "name": "prospectussearch",
+  "version": "0.0.1",
+  "description": "Extract data from Prospectus documents",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbillay/prospectusSearch.git"
+  },
+  "keywords": [
+    "Algolia",
+    "Prospectus",
+    "Asset Manager",
+    "Tika"
+  ],
+  "author": "Jeremy Billay",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^1.2.0",
+    "algoliasearch": "^3.27.1",
+    "cheerio": "^1.0.0-rc.2",
+    "koa": "^2.5.1",
+    "koa-logger": "^3.2.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.3",
+    "koa-views": "^6.1.4",
+    "lodash": "^4.17.10",
+    "node-tika": "0.0.1",
+    "sentence-splitter": "^3.0.8",
+    "striptags": "^3.1.1",
+    "tika": "^1.6.1"
+  }
+}
