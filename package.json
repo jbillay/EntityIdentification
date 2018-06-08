@@ -1,7 +1,7 @@
 {
-  "name": "prospectussearch",
+  "name": "EntityIdentification",
   "version": "0.0.1",
-  "description": "Extract data from Prospectus documents",
+  "description": "Extract Person entity data from document",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -9,12 +9,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jbillay/prospectusSearch.git"
+    "url": "git+https://github.com/jbillay/EntityIdentification.git"
   },
   "keywords": [
-    "Algolia",
-    "Prospectus",
-    "Asset Manager",
     "Tika"
   ],
   "author": "Jeremy Billay",
@@ -31,6 +28,7 @@
     "koa-views": "^6.1.4",
     "lodash": "^4.17.10",
     "node-tika": "0.0.1",
+    "nunjucks": "^3.1.3",
     "sentence-splitter": "^3.0.8",
     "striptags": "^3.1.1",
     "tika": "^1.6.1"

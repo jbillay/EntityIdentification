@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Upload</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/fontawesome-all.css" rel="stylesheet">
+  <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About</h4>
+            <p class="text-muted">Jeremy Billay from Talan Consulting UK</p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Follow on Twitter</a></li>
+              <li><a href="#" class="text-white">Link on LinkedIn</a></li>
+              <li><a href="#" class="text-white">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <strong>Entity Identification</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">File Upload</h1>
+          <p class="lead text-muted">Identify Person in a pdf document using Google Natural Language API.</p>
+          <p>
+            <form action="/upload" method="post" enctype="multipart/form-data">
+              <div class="form-row justify-content-center align-items-center">
+                <div class="col-auto">
+                  <input type="file" name="file" class="form-control-file">
+                </div>
+                <div class="col-auto">
+                  <button type="submit" value="Upload" class="btn btn-primary mb-2">Upload</button>
+                </div>
+              </div>
+            </form>
+          </p>
+        </div>
+      </section>
+    </main>
+
+  <footer class="text-muted footer">
+    <div class="container">
+      <p>Entity Identification is &copy; Talan Consulting UK</p>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
